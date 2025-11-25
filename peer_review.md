@@ -10,7 +10,6 @@ The notebook is very well-structured and is numbered properly. The visuals are a
 
 ___
 
-
 2. Feature Selection and Justification: Womenker used input features such as 'age', 'sex', 'bmi', 'children', 'smoker', 'region' and 'bmi_smoker' for his input features. Womenker's target feature was 'insurance charges'. Womenker also created a new feature called 'bmi_smoker' where Womenker multiplied 'bmi' and 'smoker' to capture the combined effect of obesity and smoking which was an excellent work. 
 ___
 
@@ -24,7 +23,6 @@ Pipeline 2: Imputer → Polynomial Features (degree=3) → StandardScaler → Li
 Based on their evaluations, Womenker found that  Pipeline 1 (Linear Regression) slightly outperformed Pipeline 2 (Polynomial Regression) in terms of R², MAE, and RMSE. In womenker's case, the Polynomial Regression did not significantly improve performance. Womenker concluded that in their case, it was likely that the relationships in the dataset are mostly linear, and adding polynomial terms introduced unnecessary complexity.
 
 ___
-
 
 4. Reflection Quality:
  Womenker did a great job in adding reflection after each section. They have summarized their results effectively, and also have done an excellent job in highlighting key observations and findings.
