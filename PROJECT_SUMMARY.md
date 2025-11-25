@@ -25,7 +25,7 @@ I selected these features becuase I found strong relationship of these features 
 
 ---
 ### 3. Feature Engineering
-- I converted categorical data (i.e., somker status to numeric data)
+- I converted categorical data (i.e., 'smoker') to numeric data
 - No new features were created
 ---
 
@@ -57,9 +57,9 @@ Assumptions:
 
 Metrics used: 
 
-R squared: Explains how much variance in target variable is explained by the model
-MAE: Measures absolute error
-RMSE: Meaures Root Mean Squared error
+- R squared: Explains how much variance in target variable is explained by the model
+- MAE: Measures absolute error
+- RMSE: Meaures Root Mean Squared error
 ___
 
 ### 7. Improve the Model
