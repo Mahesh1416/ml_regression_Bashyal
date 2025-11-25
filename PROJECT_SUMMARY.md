@@ -1,16 +1,18 @@
 
 ---
 ## PROJECT SUMMARY
-Project Title: Final Project - Regressiona analysis
+Project Title: Final Project - Regression analysis
+
 Author: Mahesh Bashyal
+
 Date: November 2025
 ___
 
 ### 1. Identify the Target Variable
-Target variable: charges
-Type: Continuous variable
-Missing values: No missing values
-Importance: This feature is important becuase it is a measure for total medical insurance cost
+- Target variable: charges
+- Type: Continuous variable
+-  Missing values: No missing values
+- Importance: This feature is important becuase it is a measure for total medical insurance cost
 ---
 
 ### 2. Review Features Variables
