@@ -17,8 +17,8 @@ ___
 
 Womenker used two regression pipelines to improve the model:
 
-Pipeline 1: Imputer → StandardScaler → Linear Regression
-Pipeline 2: Imputer → Polynomial Features (degree=3) → StandardScaler → Linear Regression
+- Pipeline 1: Imputer → StandardScaler → Linear Regression
+- Pipeline 2: Imputer → Polynomial Features (degree=3) → StandardScaler → Linear Regression
 
 Based on their evaluations, Womenker found that  Pipeline 1 (Linear Regression) slightly outperformed Pipeline 2 (Polynomial Regression) in terms of R², MAE, and RMSE. In womenker's case, the Polynomial Regression did not significantly improve performance. Womenker concluded that in their case, it was likely that the relationships in the dataset are mostly linear, and adding polynomial terms introduced unnecessary complexity.
 
