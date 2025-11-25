@@ -17,8 +17,9 @@ ___
 
 ### 2. Review Features Variables
 The featuers selected for analyis in the model were:
-Numerical: age, BMI, children
-Categorical: smoker
+
+- Numerical: age, BMI, children
+- Categorical: smoker
 
 I selected these features becuase I found strong relationship of these features with the target variable after initial exploratory anaysis.
 
@@ -29,31 +30,42 @@ I selected these features becuase I found strong relationship of these features 
 ---
 
 ### 4. Understand Relationships and Distributions
+
 Patterns: 
+
 - The insurance cost for smokers is high
+  
 Correlations:
+
 - BMI and charges show positive correlation
 - Age and charges show positive correlation
 - Children and charges show positive correlation
 ___
 
 ### 5. Select the Regression Model
+
 Baseline model: Linear Regression
+
 - The base model used for this dataset was a linear regression
 - It was appropriate for this dataset
+  
 Assumptions:
+
 - Regarding the homoscedasticity, charges target variable was skewed to the right so there might be some violations in that case
 
 ### 6. Evaluate Model Performance
 
 Metrics used: 
+
 R squared: Explains how much variance in target variable is explained by the model
 MAE: Measures absolute error
 RMSE: Meaures Root Mean Squared error
 ___
 
 ### 7. Improve the Model
+
 In order to improve the model we used the following procedures:
+
 - Add scaling
   It did not improve the linear regression model
 - Polynomial Features: This improved R squared values and other metrics and improved the overall model
